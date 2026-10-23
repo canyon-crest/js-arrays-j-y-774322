@@ -74,7 +74,7 @@ console.log(`Average: ${agh/numbers.length}`)
 //         Print: console.log("Even count: " + count)
 let wagh=0
 for(let i=0;i<5;i++){
-    if(numbers[i]%2==0){wagh=wagh++;}
+    if(numbers[i]%2==0){wagh++;}
 }
 console.log("Even count: " + wagh)
 // STEP 9: Find the largest number.
